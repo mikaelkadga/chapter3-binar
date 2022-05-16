@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html,
+body {
+    background-color: black;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ----------------------------------------------header */
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        url("../assets/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.nav-style {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ----------------------------------------------hero */
+.hero-info {
+    height: 60%;
+}
+
+.story-scroll-button {
+    height: 30%;
+}
+
+.hero-info h1 {
+    width: 100%;
+    font-family: 'Bebas Neue';
+    padding-top: 10%;
+    font-size: 5rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 5rem;
+    letter-spacing: 0.7rem;
+    margin-bottom: 3rem;
+}
+
+.hero-info h3 {
+    /* font-family: 'Bebas Neue';
+    padding-top: 5%; */
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 3rem;
+}
+
+.hero-info button{
+    background-color: #fbb341;
+    width: 14rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------the game */
+.the-game {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        /* radial-gradient(circle at right, #000, transparent),
+        radial-gradient(circle at left, #000, transparent), */
+        url('../assets/the-games-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
