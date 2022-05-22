@@ -53,7 +53,7 @@ html {
 
 .jumbotron h1 {
   margin-top: 15rem;
-  font-family: 'Bebas Neue', Helvetica, sans-serif;
+  /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
   /* font-weight: bold; */
   font-size: 60px;
   letter-spacing: 0.5rem;
@@ -132,16 +132,168 @@ html {
 }
 
 .row-features-one {
-  height: 25%;
+  height: 30%;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 
 .row-features-two {
-  height: 60%;
+  height: 30%;
+  margin-top: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
 
 .features h3 {
   /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
   font-size: 24px;
+}
+
+.row-features-two .row {
+  margin-bottom: 1.5rem;
+}
+
+.features .row-features-two h3{
+  color: orange;
+}
+
+.circle {
+  height: 14px;
+  width: 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.filled-circle {
+  background: white;
+}
+
+.circle-two::before {
+  border-left: 4px solid white;
+  content: '';
+  display: block;
+  height: 140px;
+  width: 1px;  
+  margin: 0 auto;
+  position: relative;
+  top: -140px;
+}
+
+/* ----------------------------------------------system request */
+
+.syst-req {
+  background-image: 
+  radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%),  
+  url(../assets/requirements.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.container-syst-req {
+  margin-left: 7rem;
+  margin-right: 7rem;
+  height: 100%;
+}
+
+.row-syst-one {
+  height: 30%;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.row-syst-one p {
+  margin-top: 5rem;
+}
+
+.row-syst-two {
+  height: 20%;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.syst-req h1{
+  /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
+  /* font-weight: bold; */
+  font-size: 60px;
+  letter-spacing: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.row-syst-three {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.row-syst-three h3 {
+  color: orange;
+}
+
+.row-syst-four {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.row-syst-four h3 {
+  color: orange;
+}
+
+.row-syst-five {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.row-syst-five h3 {
+  color: orange;
+}
+
+/* ----------------------------------------------press quotes */
+
+.press-quotes {
+  background-image: 
+  radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%),
+  url(../assets/top-score-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.container-press-quotes {
+  margin-left: 7rem;
+  margin-right: 7rem;
+  height: 100%;
+}
+
+.row-press-one {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 100%;
+}
+
+.row-press-one h1{
+  /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
+  /* font-weight: bold; */
+  font-size: 60px;
+  letter-spacing: 0.5rem;
+}
+
+
+/* ----------------------------------------------newsletter */
+
+.newsletter {
+  background-image: 
+  radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%),
+  url(../assets/newsletter.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
 }
 
 /* ----------------------------------------------media query */
@@ -199,6 +351,12 @@ html {
 /* ----------------------------------------------features */
 
 .features h1 {
+  font-size: 80px;
+}
+
+/* ----------------------------------------------system requirement */
+
+.system-req h1 {
   font-size: 80px;
 }
 
