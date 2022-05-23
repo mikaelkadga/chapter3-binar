@@ -326,6 +326,7 @@ html {
 .row-news-one .btn {
   height: 3rem;
   width: 10rem;
+  font-weight: bold;
 }
 
 .row-news-two .col a {
