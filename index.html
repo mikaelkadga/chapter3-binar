@@ -43,7 +43,7 @@
     </nav>
 
     <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="main">
       <div class="row jumbotron-info">
         <div class="col container d-flex flex-column align-items-center">
           <h1 class="text-white text-center">PLAY TRADITIONAL GAME</h1>
@@ -60,7 +60,7 @@
     </div>
 
     <!-- gallery -->
-    <section class="gallery">
+    <section class="gallery" id="about">
       <div class="container-gallery">
         <div class="row row-gallery-one align-items-end justify-content-center justify-content-lg-start">
           <div class="col-auto col-one">
@@ -103,10 +103,12 @@
       </div>
     </section>
 
-    <section class="features">
+    <!-- features -->
+
+    <section class="features" id="game-features">
       <div class="container-features">
         <div class="row row-features-one align-items-center">
-          <div class="col offset-lg-7">
+          <div class="col offset-lg-7 offset-sm-3">
             <h3 class="text-white">
               What’s so special?
             </h3>
@@ -123,6 +125,7 @@
                   </p>
                 </div>
               </div>
+              <div class="vertical-line"></div>
               <div class="d-flex mb-5">
                 <i class="bi bi-circle mt-2 mr-4"></i>
                 <div class="d-flex flex-column align-items-center">
@@ -148,21 +151,23 @@
       </div>
     </section>
 
-    <section class="syst-req">
+    <!-- system requirements -->
+
+    <section class="syst-req" id="system-requirements">
       <div class="container-syst-req">
         <div class="row row-syst-one">
-          <div class="col d-flex align-items-end justify-content-center">
+          <div class="col d-flex align-items-center justify-content-center">
             <h3 class="text-white text-sm-center">
               Can My Computer Run this game?
             </h3>
           </div>
         </div>
-        <div class="row row-syst-two mt-2 ml-lg-5">
+        <div class="row row-syst-two mt-2">
           <div class="col">
-            <h1 class="text-white text-sm-center text-lg-left mt-3 mb-5">
+            <h1 class="text-white text-center text-lg-left mt-3 mb-5">
               SYSTEM<br>REQUIREMENTS
             </h1>
-            <div class="d-flex flex-column align-items-sm-center align-items-lg-start">
+            <div class="d-flex flex-column align-items-center align-items-lg-start">
               <div class="d-flex justify-content-sm-center justify-content-lg-start">
                 <div class="d-flex flex-column">
                   <div class="borders">
@@ -205,12 +210,132 @@
       </div>
     </section>
 
-    <section class="press-quotes">
-      
+    <!-- press quotes -->
+
+    <section class="press-quotes" id="quotes">
+      <div class="container-press-quotes">
+        <div class="row row-press-one align-items-center">
+          <div class="col-sm col-lg-7 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="text-white mb-1 mb-lg-5 mt-5 mt-lg-0">
+              TOP SCORES
+            </h1>
+            <h4 class="text-white text-center text-lg-left mb-3 mb-lg-5">
+              This top score from various games provided<br>on this platform
+            </h4>
+            <button class="btn btn-warning mb-2 mb-lg-0">
+              see more
+            </button>
+          </div>
+          <div class="col-sm col-lg-5 d-flex flex-column align-items-center align-items-lg-start">
+            <div class="row mb-3">
+              <div class="col offset-0 offset-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="./assets/evan-lahti.jpg" alt="" class="profile">
+                      <div class="ml-3">
+                        <h5 class="card-title mb-0">Evan Lahti</h5>
+                        <h6 class="text-white">PC Gamer</h6>
+                      </div>
+                      <img src="./assets/twitter.svg" alt="" class="ml-auto">
+                    </div>
+                    <p class="card-text text-white">“One of my gaming highlights of the year.”</p>
+                    <p class="card-text date">June 18, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="./assets/jada-griffin.jpg" alt="" class="profile">
+                      <div class="ml-3">
+                        <h5 class="card-title mb-0">Jada Griffin</h5>
+                        <h6 class="text-white">Nerdreactor</h6>
+                      </div>
+                      <img src="./assets/twitter.svg" alt="" class="ml-auto">
+                    </div>
+                    <p class="card-text text-white">“The next big thing in the world of streaming and survival games.”</p>
+                    <p class="card-text date">July 10, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col offset-0 offset-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <img src="./assets/aaron-williams.jpg" alt="" class="profile">
+                      <div class="ml-3">
+                        <h5 class="card-title mb-0">Aaron Williams </h5>
+                        <h6 class="text-white">Uproxx</h6>
+                      </div>
+                      <img src="./assets/twitter.svg" alt="" class="ml-auto">
+                    </div>
+                    <p class="card-text text-white">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
+                    <p class="card-text date">December 24, 2018</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     
     <section class="newsletter">
-      
+      <div class="container-newsletter d-flex d-lg-block align-items-center">
+        <div class="row row-news-one  justify-content-center">
+          <div class="col-5 mt-5 d-none d-lg-flex justify-content-center">
+            <img src="./assets/skull.png" alt="skull" class="skull-image">
+          </div>
+          <div class="col-7 mt-5 d-flex flex-column justify-content-center">
+            <h3 class="text-white text-center text-lg-left">
+              Want to stay in touch?
+            </h3>
+            <h1 class="text-white text-center text-lg-left">
+              NEWSLETTER<br>SUBSCRIBE 
+            </h1>
+            <p class="text-white mb-5">
+              In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.
+            </p>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <input type="text" placeholder="your email addres" class="mr-3">
+              <button class="btn btn-warning">
+                submit
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row row-news-two">
+          <div class="col d-sm-none d-lg-flex justify-content-end align-items-center">
+            <a href="#main" class="">MAIN</a>
+            <a href="#about">ABOUT</a>
+            <a href="#game-features">GAME FEATURES</a>
+            <a href="#system-requirements">SYSTEM REQUIREMENTS</a>
+            <a href="#quotes">QUOTES</a>
+            <a href=""><img src="./assets/facebook.svg" alt="facebook"></a>
+            <a href=""><img src="./assets/twitter-card.png" alt="twitter"></a>
+            <a href=""><img src="./assets/vector.svg" alt="youtube"></a>
+            <a href=""><img src="./assets/twitch.svg" alt="twitch"></a>
+          </div>
+        </div>
+        <div class="row row-news-three">
+          <div class="col d-sm-none d-lg-flex justify-content-between align-items-center">
+            <p> © 2018 Your Games, Inc. All Rights Reserved</p>
+            <div class="d-flex">
+              <a href="">Privacy Policy</a>
+              <span>|</span>
+              <a href="">Terms of Services </a>
+              <span>|</span>
+              <a href="">Code of Conduct</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Optional JavaScript -->
