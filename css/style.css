@@ -19,9 +19,10 @@ html {
 
 .navbar {
   padding: 1.3rem 1.3rem;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   /* ini sama kayak margin-top jumbotron */
-  height: 100px !important;
+  /* height: 100px !important; */
+  /* yang penting pasin aja sama tnggi navnya */
 }
 
 .navbar-brand {
@@ -55,14 +56,14 @@ html {
   margin-top: 15rem;
   /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
   /* font-weight: bold; */
-  font-size: 60px;
+  font-size: 40px;
   letter-spacing: 0.5rem;
   margin-bottom: 2.5rem;
 }
 
 .jumbotron h3 {
   /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 2.5rem;
 }
 
@@ -73,11 +74,11 @@ html {
 }
 
 .jumbotron-info {
-  height: 60%;
+  height: 70%;
 }
 
 .jumbotron-story-scroll {
-  height: 40%;
+  height: 30%;
 }
 
 /* ----------------------------------------------gallery */
@@ -94,22 +95,20 @@ html {
 }
 
 .container-gallery {
-  margin-left: 7rem;
-  margin-right: 7rem;
-  height: 100%
+  height: 100%;
 }
 
 .row-gallery-one {
-  height: 30%
+  height: 20%;
 }
 
 .row-gallery-two {
-  height: 60%
+  height: 50%;
 }
 
 .gallery h3 {
   /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
-  font-size: 24px;
+  font-s
 }
 
 /* ----------------------------------------------features */
@@ -126,59 +125,24 @@ html {
 }
 
 .container-features {
-  margin-left: 7rem;
-  margin-right: 7rem;
   height: 100%;
+  margin: 0 7rem;
 }
 
 .row-features-one {
-  height: 30%;
-  margin-left: 7rem;
-  margin-right: 7rem;
+  height: 70%;
 }
 
-.row-features-two {
-  height: 30%;
-  margin-top: 10rem;
-  margin-left: 7rem;
-  margin-right: 7rem;
-}
-
-.features h3 {
-  /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
-  font-size: 24px;
-}
-
-.row-features-two .row {
-  margin-bottom: 1.5rem;
-}
-
-.features .row-features-two h3{
+.features-list h3 {
   color: orange;
 }
 
-.circle {
-  height: 14px;
-  width: 14px;
-  border: 1px solid white;
-  border-radius: 50%;
-  display: inline-block;
+.features-list i {
+  color: white;
 }
 
-.filled-circle {
-  background: white;
-}
 
-.circle-two::before {
-  border-left: 4px solid white;
-  content: '';
-  display: block;
-  height: 140px;
-  width: 1px;  
-  margin: 0 auto;
-  position: relative;
-  top: -140px;
-}
+
 
 /* ----------------------------------------------system request */
 
@@ -194,61 +158,34 @@ html {
 }
 
 .container-syst-req {
-  margin-left: 7rem;
-  margin-right: 7rem;
   height: 100%;
 }
 
 .row-syst-one {
-  height: 30%;
-  margin-left: 7rem;
-  margin-right: 7rem;
-}
-
-.row-syst-one p {
-  margin-top: 5rem;
+  height: 15%;
 }
 
 .row-syst-two {
-  height: 20%;
-  margin-left: 7rem;
-  margin-right: 7rem;
+  height: 80%;
 }
 
-.syst-req h1{
-  /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
-  /* font-weight: bold; */
-  font-size: 60px;
-  letter-spacing: 0.5rem;
-  margin-bottom: 2.5rem;
+.row-syst-two .borders {
+  border: 0.5px solid #979797;
+  width: 15rem;
+  height: 10rem;
 }
 
-.row-syst-three {
-  margin-left: 7rem;
-  margin-right: 7rem;
+.row-syst-two .borders-long {
+  border: 0.5px solid #979797;
+  width: 30rem;
+  height: 10rem;
 }
 
-.row-syst-three h3 {
+
+.row-syst-two h2 {
   color: orange;
 }
 
-.row-syst-four {
-  margin-left: 7rem;
-  margin-right: 7rem;
-}
-
-.row-syst-four h3 {
-  color: orange;
-}
-
-.row-syst-five {
-  margin-left: 7rem;
-  margin-right: 7rem;
-}
-
-.row-syst-five h3 {
-  color: orange;
-}
 
 /* ----------------------------------------------press quotes */
 
@@ -263,24 +200,7 @@ html {
   width: 100%;
 }
 
-.container-press-quotes {
-  margin-left: 7rem;
-  margin-right: 7rem;
-  height: 100%;
-}
 
-.row-press-one {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  height: 100%;
-}
-
-.row-press-one h1{
-  /* font-family: 'Bebas Neue', Helvetica, sans-serif; */
-  /* font-weight: bold; */
-  font-size: 60px;
-  letter-spacing: 0.5rem;
-}
 
 
 /* ----------------------------------------------newsletter */
@@ -325,27 +245,54 @@ html {
 
 .jumbotron {
   /* ini sama kayak tinggi navbar */
-  margin-top: -100px;
+  margin-top: -80px;
 }
 
 .jumbotron h1 {
   font-size: 80px;
+  margin-top: 15rem;
 }
 
 /* ----------------------------------------------gallery */
 
-.gallery h1 {
+.container-gallery {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.row-gallery-one {
+  height: 30%;
+}
+
+.row-gallery-two {
+  height: 60%;
+}
+
+.row-gallery-two h1 {
   font-size: 80px;
+}
+
+.carousel-indicators i {
+  font-size: 1rem;
+  font-color: white;
 }
 
 .carousel-control-prev {
   position: absolute;
-  left: -100px;
+  left: -110px;
+}
+
+.carousel-control-prev i {
+  font-size: 3rem;
 }
 
 .carousel-control-next {
   position: absolute;
-  right: -100px;
+  right: -110px;
+}
+
+.carousel-control-next i {
+  font-size: 3rem;
 }
 
 /* ----------------------------------------------features */
@@ -354,9 +301,13 @@ html {
   font-size: 80px;
 }
 
-/* ----------------------------------------------system requirement */
+/* ----------------------------------------------system requirements */
 
-.system-req h1 {
+.container-syst-req {
+  margin: 0 7rem;
+}
+
+.row-syst-two h1 {
   font-size: 80px;
 }
 
